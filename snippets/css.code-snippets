@@ -1,0 +1,22 @@
+{
+  "Flex Center": {
+    "prefix": "df",
+    "body": [
+      "\tdisplay: flex;",
+      "\tjustify-content: ${1:center};",
+      "\talign-items: center;$0"
+    ],
+    "description": "Basic styled component"
+  },
+  "Centered Class": {
+    "prefix": "cdf",
+    "body": [
+      ".$1 {",
+      "\tdisplay: flex;",
+      "\tjustify-content: ${2:center};",
+      "\talign-items: center;$0",
+      "}"
+    ],
+    "description": "Basic styled component"
+  }
+}

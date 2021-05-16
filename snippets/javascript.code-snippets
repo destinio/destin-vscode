@@ -1,0 +1,36 @@
+{
+  "Import @emotion/styled": {
+    "prefix": "ies",
+    "body": "import styled from '@emotion/styled'",
+    "description": "Import styled from @emotion/styled"
+  },
+  "Styled react functional component": {
+    "prefix": "srfc",
+    "body": [
+      "import styled from '@emotion/styled'",
+      "",
+      "const Styled${1:${TM_FILENAME_BASE}} = styled.$2``",
+      "",
+      "export default function ${1:${TM_FILENAME_BASE}}() {",
+      "\treturn (",
+      "\t\t<Styled${1:${TM_FILENAME_BASE}}>$0</Styled${1:${TM_FILENAME_BASE}}>",
+      "\t)",
+      "}"
+    ],
+    "description": "Import styled from @emotion/styled"
+  },
+  "Styled component": {
+    "prefix": "sc",
+    "body": ["const Styled$1 = styled.$2`", "\t$0", "`"],
+    "description": "Basic styled component"
+  },
+  "Flex Center": {
+    "prefix": "df",
+    "body": [
+      "\tdisplay: flex;",
+      "\tjustify-content: center;",
+      "\talign-items: center;"
+    ],
+    "description": "Basic styled component"
+  }
+}

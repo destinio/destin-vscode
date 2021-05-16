@@ -1,20 +1,44 @@
 {
-    "name": "destinio-snips",
-    "displayName": "destinio-snips",
-    "description": "Snippets for Destin Lee's Tech Stack",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "javascript",
-                "path": "./snippets/snippets.code-snippets"
-            }
-        ]
-    }
+  "name": "destinio-snips",
+  "displayName": "destinio-snips",
+  "description": "Snippets for Destin Lee's Tech Stack",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/javascript.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/typescript.code-snippets"
+      },
+      {
+        "language": "source.css.styled",
+        "path": "./snippets/css.code-snippets"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.code-snippets"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/css.code-snippets"
+      }
+    ]
+  }
 }

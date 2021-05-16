@@ -9,6 +9,11 @@
   "categories": [
     "Snippets"
   ],
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/destinio/destinio-snippets"
+  },
   "contributes": {
     "snippets": [
       {

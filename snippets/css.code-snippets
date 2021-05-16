@@ -18,5 +18,20 @@
       "}"
     ],
     "description": "Basic styled component"
+  },
+  "Reset": {
+    "prefix": "reset",
+    "body": [
+      "*, *::before, *::after {",
+      "\tmargin: 0;",
+      "\tpadding: 0;",
+      "\tbox-sizing: border-box;",
+      "}",
+      "",
+      "body {",
+      "\tfont-family: sans-serif;",
+      "}$0"
+    ],
+    "description": "Basic styled component"
   }
 }

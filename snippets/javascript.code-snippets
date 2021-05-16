@@ -32,5 +32,38 @@
       "\talign-items: center;"
     ],
     "description": "Basic styled component"
+  },
+  "import emotion global": {
+    "prefix": "ieg",
+    "body": ["import { Global } from '@emotion/react'"],
+    "description": "Import emotion/react Global"
+  },
+  "import emotion Global and use it": {
+    "prefix": "ieG",
+    "body": [
+      "import { Global } from '@emotion/react'",
+      "",
+      "<Global styles={$0} />"
+    ],
+    "description": "Import emotion/react Global"
+  },
+  "Emotion Global css": {
+    "prefix": "emglobal",
+    "body": [
+      "import { css } from '@emotion/react'",
+      "",
+      "export default css`",
+      "\t*, *::before, *::after {",
+      "\t\tmargin: 0;",
+      "\t\tpadding: 0;",
+      "\t\tbox-sizing: border-box;",
+      "\t}",
+      "",
+      "\tbody {",
+      "\t\tfont-family: sans-serif;",
+      "\t}",
+      "`"
+    ],
+    "description": "Used when you need a Global emotion file"
   }
 }

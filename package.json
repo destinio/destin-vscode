@@ -1,5 +1,6 @@
 {
   "name": "destinio-snips",
+  "publisher": "destinio",
   "displayName": "destinio-snips",
   "description": "Snippets for Destin Lee's Tech Stack",
   "version": "0.1.0",
@@ -26,11 +27,11 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/typescript.code-snippets"
+        "path": "./snippets/javascript.code-snippets"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/typescript.code-snippets"
+        "path": "./snippets/javascript.code-snippets"
       },
       {
         "language": "source.css.styled",
@@ -45,5 +46,10 @@
         "path": "./snippets/css.code-snippets"
       }
     ]
+  },
+  "__metadata": {
+    "id": "9def54fd-c990-4851-b21a-b30835e633c2",
+    "publisherDisplayName": "destinio",
+    "publisherId": "57703d5a-5a31-4a6b-9b2d-60f529e4136f"
   }
 }

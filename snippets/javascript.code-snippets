@@ -65,5 +65,15 @@
       "`"
     ],
     "description": "Used when you need a Global emotion file"
+  },
+  "simple console log 123": {
+    "prefix": "cl123",
+    "body": ["console.log(${1:123})"],
+    "description": "Console log with my fav 123"
+  },
+  "simple console log": {
+    "prefix": "cl",
+    "body": ["console.log($0)"],
+    "description": "basic console log"
   }
 }

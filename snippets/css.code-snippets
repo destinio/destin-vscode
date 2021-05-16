@@ -3,7 +3,7 @@
     "prefix": "df",
     "body": [
       "\tdisplay: flex;",
-      "\tjustify-content: ${1:center};",
+      "\tjustify-content: ${1|center,space-between|};",
       "\talign-items: center;$0"
     ],
     "description": "Basic styled component"
@@ -13,11 +13,23 @@
     "body": [
       ".$1 {",
       "\tdisplay: flex;",
-      "\tjustify-content: ${2:center};",
+      "\tjustify-content: ${2|center,space-between|};",
       "\talign-items: center;$0",
       "}"
     ],
-    "description": "Basic styled component"
+    "description": "Basic flex"
+  },
+  "Centered Column Class": {
+    "prefix": "cdfc",
+    "body": [
+      ".$1 {",
+      "\tdisplay: flex;",
+      "\tflex-direction: column;",
+      "\tjustify-content: ${2|center,space-between|};",
+      "\talign-items: center;$0",
+      "}"
+    ],
+    "description": "Basic flex column"
   },
   "Reset": {
     "prefix": "reset",

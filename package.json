@@ -2,7 +2,7 @@
   "name": "destinio-snips",
   "displayName": "destinio-snips",
   "description": "Snippets for Destin Lee's Tech Stack",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.56.0"
   },

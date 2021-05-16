@@ -10,6 +10,12 @@ Snippets for my stack
 
 ## Requirements
 
+## Resources
+
+- [snippet-sample](https://github.com/microsoft/vscode-extension-samples/tree/main/snippet-sample)
+- [creating snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_creating-your-own-snippets)
+- [snippet guide](https://code.visualstudio.com/api/language-extensions/snippet-guide)
+
 none
 
 ## Release Notes

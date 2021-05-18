@@ -7,6 +7,9 @@
   "engines": {
     "vscode": "^1.56.0"
   },
+  "scripts": {
+    "build": "vsce package"
+  },
   "categories": [
     "Snippets"
   ],
@@ -58,5 +61,8 @@
     "id": "9def54fd-c990-4851-b21a-b30835e633c2",
     "publisherDisplayName": "destinio",
     "publisherId": "57703d5a-5a31-4a6b-9b2d-60f529e4136f"
+  },
+  "devDependencies": {
+    "vsce": "^1.88.0"
   }
 }

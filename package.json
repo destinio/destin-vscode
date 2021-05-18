@@ -2,8 +2,8 @@
   "name": "destinio-snips",
   "publisher": "destinio",
   "displayName": "destinio-snips",
-  "description": "Snippets for Destin Lee's Tech Stack",
-  "version": "0.1.1",
+  "description": "Snippets and theme for Destin Lee's Tech Stack",
+  "version": "0.2.0",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -44,6 +44,13 @@
       {
         "language": "scss",
         "path": "./snippets/css.code-snippets"
+      }
+    ],
+    "themes": [
+      {
+        "label": "destinio-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/destinio-theme.json"
       }
     ]
   },

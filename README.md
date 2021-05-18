@@ -21,12 +21,12 @@ none
 
 ## Release Notes
 
-- just getting started
+## 0.2.0
 
-### 0.1.0
+- added theme
 
 ### 0.1.1
 
 - more snips
 
-🚀
+### 0.1.0

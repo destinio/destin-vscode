@@ -1,4 +1,4 @@
-# 📦 destinio-snips
+# 📦 My VSCode snippets and theme
 
 Snippets for my stack
 

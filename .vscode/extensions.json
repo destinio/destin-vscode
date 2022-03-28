@@ -1,18 +1,12 @@
 {
   "recommendations": [
-    "coenraads.bracket-pair-colorizer-2",
-    "dsznajder.es7-react-js-snippets",
-    "codezombiech.gitignore",
-    "eamodio.gitlens",
     "ritwickdey.liveserver",
-    "ionutvmi.path-autocomplete",
-    "christian-kohler.path-intellisense",
+    "ms-vsliveshare.vsliveshare",
+    "yzhang.markdown-all-in-one",
+    "pkief.material-icon-theme",
     "esbenp.prettier-vscode",
     "humao.rest-client",
     "ms-vscode.sublime-keybindings",
-    "yatki.vscode-surround",
-    "rbbit.typescript-hero",
-    "vscode-icons-team.vscode-icons",
-    "jpoissonnier.vscode-styled-components"
+    "styled-components.vscode-styled-components"
   ]
 }

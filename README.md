@@ -1,14 +1,11 @@
-# 📦 My VSCode snippets and theme
+# 📦 My VSCode snippets and theme for [destin.io](https://destin.io)
 
-Snippets for my stack
+MORE TO COME
 
 ## Features
 
-- javascript/typescript/react
-- css, scss, styled-componets
-- more to come
-
-## Requirements
+- destin.io dark theme
+- snippets coming soon
 
 ## Resources
 

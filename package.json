@@ -1,9 +1,9 @@
 {
   "name": "destinio-vscode",
   "publisher": "destinio",
-  "displayName": "destinio-snips",
+  "displayName": "destinio-vscode",
   "description": "Snippets and theme for Destin Lee's Tech Stack",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "engines": {
     "vscode": "^1.56.0"
   },

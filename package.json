@@ -3,7 +3,7 @@
   "publisher": "destinio",
   "displayName": "destinio-vscode",
   "description": "Snippets and theme for Destin Lee's Tech Stack",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "engines": {
     "vscode": "^1.56.0"
   },
@@ -21,7 +21,19 @@
   "contributes": {
     "snippets": [
       {
-        "language": "javascript, typescript",
+        "language": "javascript",
+        "path": "./snippets/alpha.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/alpha.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/alpha.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/alpha.code-snippets"
       }
     ],
